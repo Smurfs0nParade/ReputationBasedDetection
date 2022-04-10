@@ -1,2 +1,2 @@
 # ReputationBasedDetection
-Using Suricata to download a malicious IP reputation list and compare it against a PCAP. Alerts are raised if it traffic matches. 
+Using Suricata with bash scripting to detect malicious IPs. The script update-mdl.sh downloads a list of IP addresses and a list of Malicious IPs. These lists are compared to one another and a rating is applied based on the number of occurances. 
